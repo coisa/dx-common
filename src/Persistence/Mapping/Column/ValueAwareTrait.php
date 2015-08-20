@@ -8,8 +8,6 @@
  */
 namespace Dx\Common\Persistence\Mapping\Column;
 
-use DateTime;
-
 /**
  * Class ValueAwareTrait
  * @package Dx\Common\Persistence\Mapping\Column
