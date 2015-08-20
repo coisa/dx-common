@@ -1,0 +1,25 @@
+{
+  "name": "DoctrineExtended/dx-common",
+  "description": "Component for extend Zend Log",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dx",
+    "zf2",
+    "doctrine",
+    "Doctrine Extended"
+  ],
+  "homepage": "https://github.com/coisa/dx-common",
+  "autoload": {
+    "psr-4": {
+      "Dx\\Common\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zend-stdlib": "~2.5",
+    "doctrine/common": "~2.5",
+    "doctrine/doctrine-module": "~0.9"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
