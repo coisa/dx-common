@@ -24,7 +24,7 @@ trait CreatedAwareTrait
     /**
      * Sets a creation timestamp
      *
-     * @param $created optional Creation DateTime. Left null for current timestamp.
+     * @param DateTime $created optional Creation DateTime. Left null for current timestamp.
      * @return $this
      */
     public function setCreated(DateTime $created = null)

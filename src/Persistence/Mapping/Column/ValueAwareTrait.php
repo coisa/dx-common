@@ -22,7 +22,7 @@ trait ValueAwareTrait
     /**
      * Set a rounded 2 float value
      *
-     * @param $modified Modification DateTime. Left null for current timestamp.
+     * @param float $value
      * @return $this
      */
     public function setValue($value)

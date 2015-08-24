@@ -24,7 +24,7 @@ trait ModifiedAwareTrait
     /**
      * Sets a modification timestamp
      *
-     * @param $modified Modification DateTime. Left null for current timestamp.
+     * @param DateTime $modified optional Modification DateTime. Left null for current timestamp.
      * @return $this
      */
     public function setModified(DateTime $modified = null)
