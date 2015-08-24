@@ -3,6 +3,8 @@
 /**
  * Doctrine Extended Common
  *
+ * Inspired by class \Doctrine\Common\Persistence\PersistentObject
+ *
  * @author Felipe Sayão Lobato Abreu <contato@felipeabreu.com.br>
  * @since 2015-08-19
  */
@@ -19,10 +21,10 @@ use Zend\Stdlib\Hydrator\HydratorAwareInterface;
 use Zend\Stdlib\Hydrator\HydratorAwareTrait;
 
 /**
- * Class AbstractEntity
+ * Class PersistentObject
  * @package Dx\Common\Persistence
  */
-abstract class AbstractEntity implements ObjectManagerAware, ObjectManagerAwareInterface, HydratorAwareInterface, \ArrayAccess
+abstract class PersistentObject implements ObjectManagerAware, ObjectManagerAwareInterface, HydratorAwareInterface, \ArrayAccess
 {
     /** Traits */
     use ProvidesObjectManager, HydratorAwareTrait;
